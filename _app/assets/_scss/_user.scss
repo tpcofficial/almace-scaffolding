@@ -29,6 +29,7 @@
 :root {
   --code-color-h: calc(var(--link-color-h) + 10);
   --code-color-s: calc(var(--link-color-s) * .2 + 40%);
+  background: rgb(19, 21, 22);
 }
 
 .content .sub-title {
@@ -36,12 +37,16 @@
   opacity: .8;
 }
 
-.navigation li a {
-    color: rgb(19, 21, 22);
+.navigation li a:hover {
+    color: #ffffff;
 }
 
-.current {
-    color: rgb(19, 21, 22);
+.current a p header h1 {
+    color: #e8e6e3;
+}
+
+#app a {
+    color: #e8e6e3;
 }
 
 //:root {
