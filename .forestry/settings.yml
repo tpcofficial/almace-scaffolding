@@ -30,6 +30,11 @@ sections:
   label: Pages / Curtana
   create: documents
   match: "*md"
+- type: directory
+  path: _app/_pages
+  label: Pages / All
+  create: all
+  match: "**/*"
 - type: heading
   label: Site Configuration
 - type: jekyll-pages
