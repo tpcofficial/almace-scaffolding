@@ -35,13 +35,14 @@
 .content .sub-title {
   font-size: 108%;
   opacity: .8;
+  color: #dad8d5;
 }
 
 .navigation li a:hover {
     color: #ffffff;
 }
 
-.current a p header h1 {
+.current a, p, header h1, header {
     color: #e8e6e3;
 }
 
