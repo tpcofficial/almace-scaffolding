@@ -13,6 +13,7 @@ fields:
 - type: text
   name: category
   label: Categories
+  default: note
 - type: text
   name: tags
   label: Tags
