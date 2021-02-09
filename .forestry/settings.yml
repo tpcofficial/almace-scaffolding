@@ -43,6 +43,11 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: "."
+  label: Configuration files
+  create: all
+  match: "**/*.yml"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
