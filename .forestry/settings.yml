@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: _app/_data/authors.yml
-  label: Authors
-  match: "**/*"
 - type: heading
   label: Notes
 - type: directory
@@ -52,6 +48,17 @@ sections:
   label: Configuration files
   create: all
   match: "**/*.yml"
+- type: document
+  path: _app/_data/header.yml
+  label: Header
+- type: document
+  path: _app/_data/footer.yml
+  label: Footer
+  match: "**/*"
+- type: document
+  path: _app/_data/authors.yml
+  label: Authors
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
