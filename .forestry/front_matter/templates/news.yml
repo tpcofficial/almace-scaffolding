@@ -13,6 +13,7 @@ fields:
 - type: text
   name: category
   label: Category
+  default: news
 - name: customise_heading_image
   type: boolean
   label: Customise Heading Image
