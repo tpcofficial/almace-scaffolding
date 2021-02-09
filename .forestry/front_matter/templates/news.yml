@@ -5,9 +5,11 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Article Title
 - type: text
   name: category
-  label: category
+  label: Category
