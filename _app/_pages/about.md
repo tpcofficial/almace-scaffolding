@@ -1,21 +1,18 @@
 ---
 layout: page
 title: About
-permalink: /about/
-desc: 示例頁面・サンプルページ・Example Page
----
+permalink: "/about/"
+desc: 私たちに関しては・About us
 
+---
 This is an example About page.
 
-Sparanoid is a design studio operated by Tunghsiao Liu. You can ping me on [Twitter](https://twitter.com/tunghsiao) or send correspondence to [t@sparanoid.com](mailto:t@sparanoid.com).
+TPC is a global digital solutions provider, primarily based in the US, offering services to the United States and the majority of Europe. We mostly specialise in enterprise web application development, infrastructure engineering and management as well as
 
-## Colophon
+## Where are we
 
-[AMSF](https://sparanoid.com/lab/amsf/) ([Source](https://github.com/sparanoid/sparanoid.com)) -
-[GitHub](https://github.com/) -
-[CloudFront](https://aws.amazon.com/cloudfront/) -
-[Textmate](https://macromates.com/)
+[GitHub](https://github.com/tpcofficial) -  
+[Online](https://thatspretty.cool) -  
+[Contact methods](https://thatspretty.cool/contact/)
 
-All posts are &copy; Sparanoid, Inc., all rights reserved.
-
-*[AMSF]: Almace Scaffolding
+All posts are © TPC Grp. UK, all rights reserved.
