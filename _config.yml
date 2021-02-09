@@ -158,8 +158,8 @@ download:       https://blog.thatspretty.cool/uploads
 #
 # Used by Safari mask-icon, Chrome Web App theme color
 colors:
-  theme:        "#ff00b4"
-  background:   "#fff"
+  theme:        "#000000"
+  background:   "#e0e0e0"
 
 # Service Worker Precache
 service_worker:
