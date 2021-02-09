@@ -43,6 +43,10 @@ body {
   color: #dad8d5;
 }
 
+.content p {
+    color: #e8e6e3;
+}
+
 .navigation li a {
     color: #e8e6e3;
 }
@@ -51,8 +55,8 @@ body {
     color: #999999;
 }
 
-.current a, p, header h1, header, a {
-    color: #e8e6e3;
+.current a, header h1, header, a {
+    color: #ffffff;
 }
 
 #app a {
