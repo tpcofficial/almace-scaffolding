@@ -37,6 +37,19 @@ sections:
   match: "**/*"
 - type: heading
   label: Site Configuration
+- type: document
+  path: _app/_data/authors.yml
+  label: Authors
+- type: document
+  path: _app/_pages/index.html
+  label: Index page
+  match: "**/*"
+- type: document
+  path: _app/_data/header.yml
+  label: Header
+- type: document
+  path: _app/_data/footer.yml
+  label: Footer
 - type: jekyll-pages
   label: Pages
   create: all
@@ -48,15 +61,6 @@ sections:
   label: Configuration files
   create: all
   match: "**/*.yml"
-- type: document
-  path: _app/_data/header.yml
-  label: Header
-- type: document
-  path: _app/_data/footer.yml
-  label: Footer
-- type: document
-  path: _app/_data/authors.yml
-  label: Authors
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
