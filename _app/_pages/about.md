@@ -5,9 +5,9 @@ permalink: "/about/"
 desc: 私たちに関しては・About us
 
 ---
-This is an example About page.
+TPC is a global digital solutions provider, primarily based in the US, offering services to the United States and the majority of Europe. We mostly specialise in enterprise web application development, infrastructure engineering and management as well as cybersecurity.
 
-TPC is a global digital solutions provider, primarily based in the US, offering services to the United States and the majority of Europe. We mostly specialise in enterprise web application development, infrastructure engineering and management as well as
+Partnered with companies across the United States and Europe, we aim to be the best of the best.
 
 ## Where are we
 
