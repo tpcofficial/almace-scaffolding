@@ -32,12 +32,57 @@ fields:
   type: boolean
   default: true
   label: Heading Image (Locally stored)
+- name: customheadingbg
+  type: boolean
+  label: Customise heading background
 - name: heading-bg
   type: file
   config:
     maxSize: 64
   label: Heading Background
+  showOnly:
+    field: customheadingbg
+    value: true
 - name: heading-bg-local
   type: boolean
   label: Heading Background (Locally stored)
   default: true
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-color
+  type: color
+  label: Heading Background Colour
+  config:
+    required: false
+    color_format: Hex
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-size
+  type: text
+  config:
+    required: false
+  label: Heading Background Size
+  default: cover
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-repeat
+  type: text
+  config:
+    required: false
+  label: Heading Background Repeat
+  default: no-repeat
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-text
+  type: color
+  label: Heading Background Text Colour
+  config:
+    required: false
+    color_format: Hex
+  showOnly:
+    field: customheadingbg
+    value: true
