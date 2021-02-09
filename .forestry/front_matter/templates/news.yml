@@ -13,11 +13,17 @@ fields:
 - type: text
   name: category
   label: Category
+- name: customise_heading_image
+  type: boolean
+  label: Customise Heading Image
 - name: heading-img
   type: file
   config:
     maxSize: 64
   label: Heading Image
+  showOnly:
+    field: customise_heading_image
+    value: true
 - name: heading-img-width
   type: number
   label: Heading Image Width
@@ -28,13 +34,19 @@ fields:
     min: 
     max: 
     step: 
+  showOnly:
+    field: customise_heading_image
+    value: true
 - name: heading-img-local
   type: boolean
   default: true
   label: Heading Image (Locally stored)
+  showOnly:
+    field: customise_heading_image
+    value: true
 - name: customheadingbg
   type: boolean
-  label: Customise heading background
+  label: Customise Heading Background
 - name: heading-bg
   type: file
   config:
