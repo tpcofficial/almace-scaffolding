@@ -4,20 +4,20 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Notes
 - type: directory
   path: _app/_posts/note
   label: Notes
   create: documents
   match: "**/*.md"
+- type: heading
+  label: News
 - type: directory
   path: _app/_posts/news
   label: News
   create: documents
   match: "**/*.md"
-- type: heading
-  label: Notes
-- type: heading
-  label: News
 - type: heading
   label: Site Configuration
 - type: jekyll-pages
