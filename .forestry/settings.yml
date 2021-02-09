@@ -54,11 +54,9 @@ sections:
 - type: document
   path: _app/_data/footer.yml
   label: Footer
-  match: "**/*"
 - type: document
   path: _app/_data/authors.yml
   label: Authors
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
