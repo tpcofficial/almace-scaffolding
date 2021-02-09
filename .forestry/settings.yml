@@ -43,7 +43,6 @@ sections:
 - type: document
   path: _app/_pages/index.html
   label: Index page
-  match: "**/*"
 - type: document
   path: _app/_data/header.yml
   label: Header
@@ -62,7 +61,7 @@ sections:
   create: all
   match: "**/*.yml"
 upload_dir: uploads
-public_path: "/uploads"
+public_path: "/_site/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
