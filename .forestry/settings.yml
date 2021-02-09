@@ -8,12 +8,12 @@ sections:
   path: _app/_posts/note
   label: Notes
   create: documents
-  match: "**/*"
+  match: "**/*.md"
 - type: directory
   path: _app/_posts/news
   label: News
   create: documents
-  match: "**/*md"
+  match: "**/*.md"
 - type: heading
   label: Notes
 - type: heading
