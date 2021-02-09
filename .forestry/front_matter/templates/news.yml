@@ -13,3 +13,31 @@ fields:
 - type: text
   name: category
   label: Category
+- name: heading-img
+  type: file
+  config:
+    maxSize: 64
+  label: Heading Image
+- name: heading-img-width
+  type: number
+  label: Heading Image Width
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: heading-img-local
+  type: boolean
+  default: true
+  label: Heading Image (Locally stored)
+- name: heading-bg
+  type: file
+  config:
+    maxSize: 64
+  label: Heading Background
+- name: heading-bg-local
+  type: boolean
+  label: Heading Background (Locally stored)
+  default: true
