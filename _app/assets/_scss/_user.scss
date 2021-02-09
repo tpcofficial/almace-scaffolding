@@ -43,11 +43,15 @@ body {
   color: #dad8d5;
 }
 
-.navigation li a:hover {
-    color: #ffffff;
+.navigation li a {
+    color: #e8e6e3;
 }
 
-.current a, p, header h1, header {
+.navigation li a:hover {
+    color: #999999;
+}
+
+.current a, p, header h1, header, a {
     color: #e8e6e3;
 }
 
