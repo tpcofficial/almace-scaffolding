@@ -20,6 +20,16 @@ sections:
   match: "**/*.md"
 - type: heading
   label: Pages
+- type: directory
+  path: _app/_pages
+  label: Pages / Default
+  create: documents
+  match: "*md"
+- type: directory
+  path: _app/_pages/themes/curtana
+  label: Pages / Curtana
+  create: documents
+  match: "*md"
 - type: heading
   label: Site Configuration
 - type: jekyll-pages
