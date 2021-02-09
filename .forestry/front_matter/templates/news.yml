@@ -13,3 +13,88 @@ fields:
 - type: text
   name: category
   label: Category
+- name: customise_heading_image
+  type: boolean
+  label: Customise Heading Image
+- name: heading-img
+  type: file
+  config:
+    maxSize: 64
+  label: Heading Image
+  showOnly:
+    field: customise_heading_image
+    value: true
+- name: heading-img-width
+  type: number
+  label: Heading Image Width
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  showOnly:
+    field: customise_heading_image
+    value: true
+- name: heading-img-local
+  type: boolean
+  default: true
+  label: Heading Image (Locally stored)
+  showOnly:
+    field: customise_heading_image
+    value: true
+- name: customheadingbg
+  type: boolean
+  label: Customise Heading Background
+- name: heading-bg
+  type: file
+  config:
+    maxSize: 64
+  label: Heading Background
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-local
+  type: boolean
+  label: Heading Background (Locally stored)
+  default: true
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-color
+  type: color
+  label: Heading Background Colour
+  config:
+    required: false
+    color_format: Hex
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-size
+  type: text
+  config:
+    required: false
+  label: Heading Background Size
+  default: cover
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-repeat
+  type: text
+  config:
+    required: false
+  label: Heading Background Repeat
+  default: no-repeat
+  showOnly:
+    field: customheadingbg
+    value: true
+- name: heading-bg-text
+  type: color
+  label: Heading Background Text Colour
+  config:
+    required: false
+    color_format: Hex
+  showOnly:
+    field: customheadingbg
+    value: true
