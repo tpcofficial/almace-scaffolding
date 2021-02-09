@@ -1,0 +1,15 @@
+---
+label: News
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: post
+  hidden: true
+- type: text
+  name: title
+  label: Article Title
+- type: text
+  name: category
+  label: Category

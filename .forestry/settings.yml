@@ -37,14 +37,31 @@ sections:
   match: "**/*"
 - type: heading
   label: Site Configuration
+- type: document
+  path: _app/_data/authors.yml
+  label: Authors
+- type: document
+  path: _app/_pages/index.html
+  label: Index page
+- type: document
+  path: _app/_data/header.yml
+  label: Header
+- type: document
+  path: _app/_data/footer.yml
+  label: Footer
 - type: jekyll-pages
   label: Pages
   create: all
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: "."
+  label: Configuration files
+  create: all
+  match: "**/*.yml"
 upload_dir: uploads
-public_path: "/uploads"
+public_path: "/_site/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
