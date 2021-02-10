@@ -3,19 +3,7 @@ layout: post
 category: news
 tags:
 - open-source
-heading-img-width: 0
-heading-img-local: true
-heading-bg-local: true
-heading-bg-size: cover
-heading-bg-repeat: no-repeat
 title: A better way to manage authentication
-customise_heading_image: false
-heading-img: ''
-customheadingbg: false
-heading-bg: ''
-heading-bg-color: ''
-heading-bg-text: ''
-
 ---
 big-oauth2 is an open-source[^1] project backed by resources from TPC Grp. UK[^2], a business I founded and run along with some trusted colleagues.
 
