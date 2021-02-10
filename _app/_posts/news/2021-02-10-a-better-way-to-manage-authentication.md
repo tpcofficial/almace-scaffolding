@@ -4,7 +4,7 @@ category: news
 tags:
 - open-source
 title: A better way to manage authentication
-date: 2021-02-10 09:47:00 +0000
+date: 2021-02-10T09:47:00.000+00:00
 customise_heading_image: false
 heading-img: ''
 heading-img-width: 
