@@ -1,8 +1,7 @@
 ---
 layout: post
 category: news
-tags:
-- open-source
+tags: open-source
 title: A better way to manage authentication
 ---
 big-oauth2 is an open-source[^1] project backed by resources from TPC Grp. UK[^2], a business I founded and run along with some trusted colleagues.
