@@ -19,10 +19,10 @@ Udemy, Coursera, SANS Foundation and edx are some common (non-specific) provider
 
 The courses are in depth, some labs and assets to assist you with your studies.
 
-If you have the cash available to invest into a SANS Foundations course then you're going to come out on top of many other students. 
+If you have the cash available to invest into a SANS Foundations course then you're going to come out on top of many other students.
 The problem with these providers, are they're expensive as hell.
 
-### Udemy
+### [Udemy](https://www.udemy.com/topic/linux/)
 
 Udemy is a well known course provider which allows reviewed content to be published to their platform. You can find nearly anything on Udemy with a bit of searching.
 
@@ -30,22 +30,22 @@ There's quite a few Linux courses and I'm going to cover the platform rather tha
 
 The pros:
 
-- There's a lot of options to chose from for any price range
-- Most of the high-rated courses are from people with experience and qualifications in the field
-- There are courses specific to distributions and certain topics
-- User reviews on ever course
-- Udemy-staff picks
+* There's a lot of options to chose from for any price range
+* Most of the high-rated courses are from people with experience and qualifications in the field
+* There are courses specific to distributions and certain topics
+* User reviews on ever course
+* Udemy-staff picks
 
 The cons:
 
-- Although reviewed, there are still some pretty poor courses with high prices
-- No refunds
-- Most of the courses barely touch theory
-- Big mix between video, text and other content- can't really tell how your course will be structured until after you purchase it
-- Certificates are not always included and may cost extra
-- Does not offer degrees
+* Although reviewed, there are still some pretty poor courses with high prices
+* No refunds
+* Most of the courses barely touch theory
+* Big mix between video, text and other content- can't really tell how your course will be structured until after you purchase it
+* Certificates are not always included and may cost extra
+* Does not offer degrees
 
-### Coursera
+### [Coursera](https://www.coursera.org/courses?query=linux&page=1)
 
 Coursera is another online course provider, similar to Udemy.
 
@@ -55,21 +55,21 @@ Most of the content available is also free, even ones from large corporations!
 
 The pros:
 
-- Trusted, in-depth content
-- Most of the content is free
-- Lots of general and specific courses
-- Lots of distro-focused courses
-- Free certificate with any course
-- Student & enterprise options
-- Courses covering bundles of things (e.g. open-source software development from TLF includes Linux, Git, Development fundamentals, what is open-source software etc)
-- Degrees available too
+* Trusted, in-depth content
+* Most of the content is free
+* Lots of general and specific courses
+* Lots of distro-focused courses
+* Free certificate with any course
+* Student & enterprise options
+* Courses covering bundles of things (e.g. open-source software development from TLF includes Linux, Git, Development fundamentals, what is open-source software etc)
+* Degrees available too
 
 The cons:
 
-- You will need to dedicate a lot more time that other providers
-- There are *no* labs for non-programming topics
+* You will need to dedicate a lot more time that other providers
+* There are _no_ labs for non-programming topics
 
-### SANS
+### [SANS](https://sans-foundations.com/)
 
 The SANS Institute is a well-known name and course by most employers, companies and groups.
 
@@ -77,32 +77,30 @@ SANS Foundation is a new course started with CyberDiscovery which covers the fun
 
 The pros:
 
-- In-depth
-- Labs
-- Videos
-- Mass amount of content
-- Free for students registering to CyberDiscovery
+* In-depth
+* Labs
+* Videos
+* Mass amount of content
+* Free for students registering to CyberDiscovery
 
 The cons:
 
-- Much more expensive compared to other courses
+* Much more expensive compared to other courses
 
-### edx
+### [edx](https://www.edx.org/learn/linux)
 
 edx is another common course provider online, very heavily utilised by Microsoft for a lot of the courses they run.
 
 The pros:
 
-- Used by large companies
-- Lots of courses are free, but have hiked prices for certificates
+* Used by large companies
+* Lots of courses are free, but have hiked prices for certificates
 
 The cons:
 
-- Not really any fixed standards, quality of courses varies depending on the provider
-- Certificates are expensive
-- Not all paid courses include certificates
-
-
+* Not really any fixed standards, quality of courses varies depending on the provider
+* Certificates are expensive
+* Not all paid courses include certificates
 
 ## Free options
 
@@ -114,15 +112,15 @@ Learn from the best, the Linux Foundation offer courses and specialisations in f
 
 The pros:
 
-- Courses are in-depth
-- Specialisations and topics
-- Great course, commonly spotted and enjoyed by employers
+* Courses are in-depth
+* Specialisations and topics
+* Great course, commonly spotted and enjoyed by employers
 
 The cons:
 
-- No labs
-- No certificate
-- Manage the course yourself
+* No labs
+* No certificate
+* Manage the course yourself
 
 ### LinkedIn Education
 
@@ -130,10 +128,26 @@ Offering loads of courses from companies and groups, LinkedIn foundation provide
 
 The pros:
 
-- Many free courses
-- Many more courses with LinkedIn Premium
-- Can be verified by LinkedIn employers
+* Many free courses
+* Many more courses with LinkedIn Premium
+* Can be verified by LinkedIn employers
 
 The cons:
 
-- No labs
+* No labs
+
+# What do I recommend
+
+An unbiased, honest opinion would be Coursera.
+
+Coursera allows you to take a course from a well-established company, which can produce a certificate to be a provider to an employer.
+
+It offers courses from the Linux Foundation, Google, Red Hat and more for you to take as well.
+
+I'd highly recommend OSS Development, IT Automation with Python, Computer Security and Systems management alongside Getting Started with Linux Terminal if you still suck with ba/a/sh 
+
+All the courses are in-depth with many having a point of contact to talk to if you have any questions etcetera.
+
+I also believe that labs are going to be introduced (if not already), so you should go and check it out.
+
+If you're from the UK and a full-time student also enrol for CyberDiscovery for a free SANS Foundation 6-month course
