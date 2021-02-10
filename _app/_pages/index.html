@@ -32,7 +32,12 @@ thumb_force_logo: true
     {% for post in site.tags.projects %}
       {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
     {% endfor %}
-
+    
+    <h2>Education</h2>
+    {% for post in site.tags.education %}
+      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
+    {% endfor %}
+    
     <h2>Staff</h2>
     {% for post in site.tags.staff %}
       {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
