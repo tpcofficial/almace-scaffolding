@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: Posts
+  create: all
 - type: heading
   label: Notes
 - type: directory
@@ -61,9 +64,6 @@ sections:
   label: Footer
 - type: jekyll-pages
   label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
   create: all
 - type: directory
   path: "."
