@@ -1,0 +1,52 @@
+---
+label: News (No image)
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: category
+  label: category
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: customise_heading_image
+  label: customise_heading_image
+- type: text
+  name: heading-img
+  label: heading-img
+- type: text
+  name: heading-img-width
+  label: heading-img-width
+- type: boolean
+  name: heading-img-local
+  label: heading-img-local
+- type: boolean
+  name: customheadingbg
+  label: customheadingbg
+- type: text
+  name: heading-bg
+  label: heading-bg
+- type: boolean
+  name: heading-bg-local
+  label: heading-bg-local
+- type: text
+  name: heading-bg-color
+  label: heading-bg-color
+- type: text
+  name: heading-bg-size
+  label: heading-bg-size
+- type: text
+  name: heading-bg-repeat
+  label: heading-bg-repeat
+- type: text
+  name: heading-bg-text
+  label: heading-bg-text
