@@ -106,7 +106,7 @@ The cons:
 
 There are some great free options available to people out there, most of which are actually very in-depth and great to learn with. All of these do not include labs though, sadly.
 
-### The Linux Foundation
+### [The Linux Foundation](https://training.linuxfoundation.org/resources/free-courses/)
 
 Learn from the best, the Linux Foundation offer courses and specialisations in fields and topics
 
@@ -122,7 +122,7 @@ The cons:
 * No certificate
 * Manage the course yourself
 
-### LinkedIn Education
+### [LinkedIn Education](https://www.linkedin.com/learning/topics/linux-2)
 
 Offering loads of courses from companies and groups, LinkedIn foundation provides a lot of free in-depth courses to help jump-start careers
 
@@ -151,3 +151,8 @@ All the courses are in-depth with many having a point of contact to talk to if y
 I also believe that labs are going to be introduced (if not already), so you should go and check it out.
 
 If you're from the UK and a full-time student also enrol for CyberDiscovery for a free SANS Foundation 6-month course
+
+Any LinkedIn users, check out these courses here, they'll look great to LinkedIn employers (also ensure you take the skill exam on your profile):
+
+* [https://www.linkedin.com/learning/learning-linux-command-line-2/learning-linux-command-line](https://www.linkedin.com/learning/learning-linux-command-line-2/learning-linux-command-line "https://www.linkedin.com/learning/learning-linux-command-line-2/learning-linux-command-line")
+* [https://www.linkedin.com/learning/linux-bash-shell-and-scripts/welcome](https://www.linkedin.com/learning/linux-bash-shell-and-scripts/welcome "https://www.linkedin.com/learning/linux-bash-shell-and-scripts/welcome")
