@@ -10,6 +10,16 @@ fields:
 - type: text
   name: title
   label: Article Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - type: text
   name: category
   label: Category
