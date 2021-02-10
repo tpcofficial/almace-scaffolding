@@ -5,7 +5,7 @@ category: news
 tags:
 - staff
 - education
-heading-img-width: 0
+heading-img-width: '0'
 heading-img-local: true
 heading-bg-local: true
 heading-bg-size: cover
