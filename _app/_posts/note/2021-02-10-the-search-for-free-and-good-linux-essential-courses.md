@@ -51,7 +51,7 @@ Coursera is another online course provider, similar to Udemy.
 
 Where Udemy allows content and courses from the public, Coursera is primarily for companies and universities, they have in-depth courses from the likes of Red Hat, Microsoft, Google and the Linux Foundation.
 
-Most of the content available is also free, even ones from large corporations!
+Most of the content available is also free*, even ones from large corporations!
 
 The pros:
 
@@ -63,11 +63,14 @@ The pros:
 * Student & enterprise options
 * Courses covering bundles of things (e.g. open-source software development from TLF includes Linux, Git, Development fundamentals, what is open-source software etc)
 * Degrees available too
+* Student discounts
+* Free 7-day trial
 
 The cons:
 
 * You will need to dedicate a lot more time that other providers
 * There are _no_ labs for non-programming topics
+* *A good portion of the 'free' courses require you to have a subscription, but the amount of courses doesn't influence this you only ever pay a single fixed monthly bill
 
 ### [SANS](https://sans-foundations.com/)
 
@@ -138,21 +141,29 @@ The cons:
 
 # What do I recommend
 
-An unbiased, honest opinion would be Coursera.
-
-Coursera allows you to take a course from a well-established company, which can produce a certificate to be a provider to an employer.
-
-It offers courses from the Linux Foundation, Google, Red Hat and more for you to take as well.
-
-I'd highly recommend OSS Development, IT Automation with Python, Computer Security and Systems management alongside Getting Started with Linux Terminal if you still suck with ba/a/sh 
-
-All the courses are in-depth with many having a point of contact to talk to if you have any questions etcetera.
-
-I also believe that labs are going to be introduced (if not already), so you should go and check it out.
-
 If you're from the UK and a full-time student also enrol for CyberDiscovery for a free SANS Foundation 6-month course
+
+I'd go ahead and take up the Linux Foundations series of courses, there are other options out there but if you aren't eligible for free SANS Foundations TLF offers an amazing selection of Linux courses.
 
 Any LinkedIn users, check out these courses here, they'll look great to LinkedIn employers (also ensure you take the skill exam on your profile):
 
 * [https://www.linkedin.com/learning/learning-linux-command-line-2/learning-linux-command-line](https://www.linkedin.com/learning/learning-linux-command-line-2/learning-linux-command-line "https://www.linkedin.com/learning/learning-linux-command-line-2/learning-linux-command-line")
 * [https://www.linkedin.com/learning/linux-bash-shell-and-scripts/welcome](https://www.linkedin.com/learning/linux-bash-shell-and-scripts/welcome "https://www.linkedin.com/learning/linux-bash-shell-and-scripts/welcome")
+
+They offer a lovely wide selection of courses from people whose reputation you can quickly verify.
+
+That's it for freebies, TLF offers great content alongside LinkedIn
+
+I would steer away from Udemy and edx.
+
+I'd also go ahead and recommend Coursera, it's a great option for £36 a month, I'd put it aside until Uni or college when you can balance education and work.
+
+Coursera allows you to take a course from a well-established company, which can produce a certificate to be a provider to an employer.
+
+It offers courses from the Linux Foundation, Google, Red Hat and more for you to take as well.
+
+I'd highly recommend OSS Development, IT Automation with Python, Computer Security and Systems management alongside Getting Started with Linux Terminal if you still suck with ba/a/sh
+
+All the courses are in-depth with many having a point of contact to talk to if you have any questions etcetera.
+
+I also believe that labs are going to be introduced (if not already), so you should go and check it out.
