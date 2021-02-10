@@ -5,19 +5,8 @@ category: news
 tags:
 - staff
 - education
-heading-img-width: '0'
-heading-img-local: true
-heading-bg-local: true
-heading-bg-size: cover
-heading-bg-repeat: no-repeat
 title: The search for ____ - Information on educating yourself in tech fields for
   free
-customise_heading_image: false
-heading-img: ''
-customheadingbg: false
-heading-bg: ''
-heading-bg-color: ''
-heading-bg-text: ''
 
 ---
 _Information on educating yourself in tech fields for free_

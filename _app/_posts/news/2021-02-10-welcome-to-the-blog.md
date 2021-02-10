@@ -3,18 +3,8 @@ layout: post
 category: news
 tags:
 - miscellaneous
-heading-img-width: 0
-heading-img-local: true
-heading-bg-local: true
-heading-bg-size: cover
-heading-bg-repeat: no-repeat
 title: Welcome to the blog
-customise_heading_image: false
-heading-img: ''
-customheadingbg: false
-heading-bg: ''
-heading-bg-color: ''
-heading-bg-text: ''
+
 date: 2021-02-01 09:03:00 +0000
 
 ---
