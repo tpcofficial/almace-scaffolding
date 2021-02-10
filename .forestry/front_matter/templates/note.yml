@@ -14,6 +14,7 @@ fields:
   name: category
   label: Categories
   default: note
-- type: text
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: Tags
