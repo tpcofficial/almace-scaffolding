@@ -5,48 +5,42 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: category
-  label: category
-- type: list
-  name: tags
-  label: tags
-- type: text
-  name: heading-img-width
-  label: heading-img-width
-- type: boolean
-  name: heading-img-local
-  label: heading-img-local
-- type: boolean
-  name: heading-bg-local
-  label: heading-bg-local
-- type: text
-  name: heading-bg-size
-  label: heading-bg-size
-- type: text
-  name: heading-bg-repeat
-  label: heading-bg-repeat
+  default: post
+  hidden: true
 - type: text
   name: title
-  label: title
-- type: boolean
-  name: customise_heading_image
-  label: customise_heading_image
-- type: file
-  name: heading-img
-  label: heading-img
-- type: boolean
-  name: customheadingbg
-  label: customheadingbg
+  label: Title
 - type: text
-  name: heading-bg
-  label: heading-bg
-- type: text
-  name: heading-bg-color
-  label: heading-bg-color
+  name: category
+  label: Category
+  default: news
+- type: datetime
+  name: date
+  label: Date
+  default: now
+- type: list
+  name: tags
+  label: Tags
 - type: text
   name: heading-bg-text
-  label: heading-bg-text
+  label: Heading Image Text
+- name: heading-bg
+  type: file
+  config:
+    maxSize: 64
+  label: Heading image
+- type: boolean
+  name: heading-bg-local
+  label: Heading Image Local
+  default: true
+- type: text
+  name: heading-bg-size
+  label: Heading Image Size
+  default: '1920'
+- type: text
+  name: heading-bg-repeat
+  label: Heading Image Repeat
+  default: no-repeat
+- type: text
+  name: heading-bg-color
+  label: Heading Image Colour
