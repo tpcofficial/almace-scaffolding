@@ -12,9 +12,9 @@ heading-bg-size: cover
 heading-bg-repeat: no-repeat
 title: Going remote and building a vSOC
 customise_heading_image: true
-heading-img: "/_site/uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
+heading-img: "/uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
 customheadingbg: true
-heading-bg: "/_site/uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
+heading-bg: "uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
 heading-bg-color: "#313131"
 heading-bg-text: "#DCDCDC"
 
