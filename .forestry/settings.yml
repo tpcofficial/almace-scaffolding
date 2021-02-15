@@ -70,7 +70,7 @@ sections:
   label: Configuration files
   create: all
   match: "**/*.yml"
-upload_dir: _app/_site/uploads
+upload_dir: _site/uploads
 public_path: uploads
 front_matter_path: ''
 use_front_matter_path: false
