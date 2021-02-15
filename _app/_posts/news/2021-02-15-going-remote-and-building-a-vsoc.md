@@ -1,20 +1,20 @@
 ---
 layout: post
-date: 2021-02-15 17:36:05 +0000
+date: 2021-02-15T17:36:05.000+00:00
 category: news
 tags:
 - security
 - projects
-heading-img-width: 1920
+heading-img-width: "1920"
 heading-img-local: true
 heading-bg-local: true
 heading-bg-size: cover
 heading-bg-repeat: no-repeat
 title: Going remote and building a vSOC
 customise_heading_image: true
-heading-img: "/uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
+heading-img: "/assets/uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
 customheadingbg: true
-heading-bg: "uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
+heading-bg: "/assets/uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
 heading-bg-color: "#313131"
 heading-bg-text: "#DCDCDC"
 
