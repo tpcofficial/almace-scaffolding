@@ -14,7 +14,7 @@ title: Going remote and building a vSOC
 customise_heading_image: true
 heading-img: "/uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
 customheadingbg: true
-heading-bg: "/uploads/2021-02-15-1_8nbj7qyhqvqx43_ghsjqzw-1.png"
+heading-bg: ''
 heading-bg-color: "#313131"
 heading-bg-text: "#DCDCDC"
 
