@@ -113,3 +113,5 @@ fields:
   showOnly:
     field: customheadingbg
     value: true
+pages:
+- _app/_posts/news/going-remote-and-building-a-vsoc.md
