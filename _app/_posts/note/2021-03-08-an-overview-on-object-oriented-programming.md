@@ -8,38 +8,34 @@ tags:
 title: An overview on Object Oriented Programming
 
 ---
-# Object Oriented Programming (OOP)
+# Object-Oriented Programming (OOP)
 
 ## What is OOP
 
-- Capture, group info, data and related functionality into 'objects'
+* Capture, group info, data and related functionality into 'objects'
+* OOP world viewed as a collection of objects
+* Abstract data like unique data structures, user accounts etc
+* Each object responsible for its own data and operations performed in that data (scope)
+* Objects _can_ interact with each other
 
-- OOP world viewed as collection as objects
-
-- Abstract data like unique data structures, user accounts etc
-
-- Each object responsible for it's own data and operations performed in that data (scope)
-
-- Objects *can* interact with eachother
-
-In the real world, OOP is being phased out for functional and procedural programming. OOP is seen as inefficient and complicated, making maintaing work more of a hassle- although it's a great thing to learn and understand.
+In the real world, OOP is being phased out for functional and procedural programming. OOP is seen as inefficient and complicated, making maintaining work more of a hassle- although it's a great thing to learn and understand.
 
 I plan on writing about functional programming soon, but this is a great place to start.
 
-These documents are going to be short and provide key notes on the topics in question.
+These documents are going to be short and provide keynotes on the topics in question.
 
 ## What's in a class/object
 
-- A class
-  - Class name
-  - Attribute
-    - All of the information share dby any object of this class type
-  - Methods
-    - Code associated with the class tha tallows you to access or change it's attributes
-- A class is not an object itself.
-- Very easy to reuse a calss and create multiple objects of that class
-- Classes are in itself not an object, more of a template for one
-- To create an object from a class, we go through a process called instansiation (initialising a class into an object)
+* A class
+  * Class name
+  * Attribute
+    * All of the information share by any object of this class type
+  * Methods
+    * Code associated with the class that allows you to access or change it's attributes
+* A class is not an object itself.
+* Very easy to reuse a class and create multiple objects of that class
+* Classes are in themselves not an object, more of a template for one
+* To create an object from a class, we go through a process called instantiation (initialising a class into an object)
 
 ```none
 
@@ -59,23 +55,22 @@ Above is an example of a class, a class itself does not serve much of a purpose,
 new ClassName(SomeAttribute, AnotherAttribute) -> something
 ```
 
-Above is an example of us using that class to create an object called 'something'.
-We can call methods and set attributes of something based of the attributes and methods defined in the class, ClassName.
+Above is an example of us using that class to create an object called 'something'. We can call methods and set attributes of something based on the attributes and methods defined in the class, ClassName.
 
 ## OOP in practice
 
-- Implementation varies language to language (surprise)
-- Similar structure between all languages
-  - Langauges class keyword then class name
-  - Break out of the indendation or a marker that indicates the end of the class
-  - Attributes for the class
-  - Parameters and code for the instantiation of the class (e.g. __init_\_ in python)
-    - Called a "constructor" method
-    - Can be used to set local attributes before methods used
+* Implementation varies from language to language (surprise)
+* Similar structure between all languages
+  * Languages class keyword then the class name
+  * Break out of the indentation or a marker that indicates the end of the class
+  * Attributes for the class
+  * Parameters and code for the instantiation of the class (e.g. __init__ in python)
+    * Called a "constructor" method
+    * Can be used to set local attributes before methods used
 
 ### Example implementation in python
 
-Example of a class without any paramters in Python:
+Example of a class without any parameters in Python:
 
 ```python
 
@@ -100,7 +95,7 @@ class SomeClass(object):
         self.somevar = somePassedVariable # This variable is now locally available in any instantised object made from this class
 ```
 
-Example of a class with a single method being instantised into it's own object:
+Example of a class with a single method being instantiated into its own object:
 
 ```python
 
@@ -127,7 +122,7 @@ myObject.myMethod()
 
 ## Static methods/functions
 
-A static function is a function which never leaves the scope of this, the local scope to that instance of an object (from a class).
+A static function is a function that never leaves the scope of this, the local scope to that instance of an object (from a class).
 
 ```python
 class SomeClass(object):
@@ -182,8 +177,7 @@ something.anotherMethod(3)
 
 One can extend an existing class, using a class as a template for another class.
 
-This decreases code replication and allows for simpler implementation of objects.
-Having a generic class makes it easier to implement multiple similar classes- we can reuse an existing class, using it's attributes and methods, without affecting the original code.
+This decreases code replication and allows for a simpler implementation of objects. Having a generic class makes it easier to implement multiple similar classes- we can reuse an existing class, using it's attributes and methods, without affecting the original code.
 
 ```none
 
@@ -215,7 +209,7 @@ something.veryImportantExtraMethod()
 Here `anotherClass` has inherited the same methods and attributes of myClass, we only add the new parts of the class we require.
 This is called a `subclass`- a child which extends another class. Whereas `myClass` (in context of `anotherClass`), is a `superclass`- a parent to a, or multiple, child classes.
 
-A subclass and superclass is always context related, we could have more classes inherited from `anotherClass`, these classes would see `anotherClass` as it's super class.
+A subclass and superclass is always context-related, we could have more classes inherited from `anotherClass`, these classes would see `anotherClass` as it's superclass.
 
 There is no limit<sup id="a1">[1](#f1)</sup> to how far you may branch a class.
 
@@ -256,7 +250,7 @@ something.veryImportantExtraMethod()
 >> "Goodbye, world!"
 ```
 
-An original method can still be obtained in most object-oriented programming langauges. This is done by called the `superclass` inside the `subclass`, as the original structure of the parent should always be stored.
+An original method can still be obtained in most object-oriented programming languages. This is done by called the `superclass` inside the `subclass`, as the original structure of the parent should always be stored.
 
 ```none
 something.super.myMethod()
@@ -326,20 +320,20 @@ overrideClass.anotherMethod(1)
 
 ## Encapsulation
 
-Encapsulation is about protecting certain contents of an initialised class, an ***object***.
+Encapsulation is about protecting certain contents of an initialised class, an **_object_**.
 
-- The "bundling of data with the methods that operate on and restrict direct access to it"
-- Is used to hide value sor states of an obejct
-- Encapsulised attributes should only be accessible or changable by the methods provided by the **object**
-- Keeps data related to an **object** safe- can't be accidentally modified by other methods
-- Protected attributes act like a variable/attribute stored locally somewhere else, attempting to access it will return an error/exception in the implementation like it doesn't exist (unless accessed through the method required)
+* The "bundling of data with the methods that operate on and restrict the direct access to it"
+* Is used to hide the values or states of an object
+* Encapsulated attributes should only be accessible or changeable by the methods provided by the **object**
+* Keeps data related to an **object** safe- can't be accidentally modified by other methods
+* Protected attributes act like a variable/attribute stored locally somewhere else, attempting to access it will return an error/exception in the implementation like it doesn't exist (unless accessed through the method required)
 
 Implementation:
 
-- You must supply methods if you want an objects internal attributes to be read/written
-- An objects methods are usually public, not private
-- The methods are the part of of the same object, so it's private attributes are available
-- Every language has it's own unique way to implement protected members
+* You must supply methods if you want an objects internal attributes to be read/written
+* An object's methods are usually public, not private
+* The methods are the part of the same object, so it's private attributes are available
+* Every language has it's own unique way to implement protected members
 
 ```python
 
@@ -363,54 +357,54 @@ print(P.__lastname)#When accessing this outside the object however, not going th
 
 ## Polymorphism
 
-- Polymorphism just means many forms
-- You're likely to of used it before
-  - Example in Python
+* Polymorphism just means many forms
+* You're likely to of used it before
+  * Example in Python
+
     ```python
     a = "Hello"
     b = ", world!
     print(a+b) # String concatentation
     >> "Hello, world!"
-
+    
     a = 1
     b = 2
     print(a+b) # Math operator
     >> 3
     ```
-  - As you can see above, in both cases of `print(a+b)` we had completely different operations
-- OOP has two types of polymorphism
-  - Static
-    - Multiple methods of the same name, with different parameters in the same class
-    - Also known as "method overloading"
-    - In order for this to work it must differ in at least one of the following ways:
-      - They need to have a different number of parameters
-      - The types of parameters are different
-      - They expect the parameters in a different order (bad practice)
-  - Dynamic
-    - Some things to remember
-      - A subclass can override a superclass
-      - An overriden superclass means we can completely replace or customise the behaviour of that specific method we override, acting like a completely new method
-    - Overriding a method of a superclass in a subclass is a form of polymorphism
-      - This is as they share the same name and parameters, but have different functionality depending on how they're implemented
-
+  * As you can see above, in both cases of `print(a+b)` we had completely different operations
+* OOP has two types of polymorphism
+  * Static
+    * Multiple methods of the same name, with different parameters in the same class
+    * Also known as "method overloading"
+    * In order for this to work it must differ in at least one of the following ways:
+      * They need to have a different number of parameters
+      * The types of parameters are different
+      * They expect the parameters in a different order (bad practice)
+  * Dynamic
+    * Some things to remember
+      * A subclass can override a superclass
+      * An overridden superclass means we can completely replace or customise the behaviour of that specific method we override, acting like a completely new method
+    * Overriding a method of a superclass in a subclass is a form of polymorphism
+      * This is as they share the same name and parameters, but have different functionality depending on how they're implemented
 
 ## Key questions
 
-### **What is the difference between and object and a class?**
+### **What are the differences between an object and a class?**
 
-A class is more of a template for an object which could be instantised in the future.
+A class is more of a template for an object which could be instantiated in the future.
 
 ### **What is inheritance and how can it be used?**
 
-Inheritence is where you create a class as a subclass of another class, allowing it to have similar attributes and methods, which can be re-used or altered.
+Inheritance is where you create a class as a subclass of another class, allowing it to have similar attributes and methods, which can be reused or altered.
 
 ### **How can overriding be used in object-oriented programming?**
 
-To replace a method which is unfit for the usecase of a more specific/specialised implementation of a class.
+To replace a method that is unfit for the use case of a more specific/specialised implementation of a class.
 
 ### **What is encapsulation and how does it help to create a robust program?**
 
-Encapsulation allows us to protect attributes inside of an instantised class (an object), and therefore means we can not accidentally modify an attribute we wish to protect or of high importance, forcing us to interact with it through a method.
+Encapsulation allows us to protect attributes inside of an instantiated class (an object) and therefore means we can not accidentally modify an attribute we wish to protect or of high importance, forcing us to interact with it through a method.
 
 ### **What is polymorphism and how can it be used?**
 
