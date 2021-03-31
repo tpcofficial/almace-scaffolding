@@ -27,6 +27,6 @@ We'll help teach you across a variety of topics including; Linux, Cybersecurity,
 
 We're currently offering five positions to help teach you what you'd need to know in the field.
 
-Email hey@thatspretty.cool for more information.
+Email [hey@thatspretty.cool](mailto:hey@thatspretty.cool "Email us") for more information.
 
 _This article is waiting to be revised_
